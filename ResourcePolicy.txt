@@ -14,7 +14,7 @@
             "Resource": "arn:aws:execute-api:eu-central-1:862851468070:i4s4lnf9bb/*/*/*",
             "Condition": {
                 "NotIpAddress": {
-                    "aws:SourceIp": ""
+                    "aws:SourceIp": "yourIPAddress"
                 }
             }
         }
